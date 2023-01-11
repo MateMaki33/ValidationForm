@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <main class=" d-flex flex-column justify-content-center align-items-center ">
+        <h1 class="h1">Registrar usuario</h1>
+        <form class="mt-5 w-25"  >
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="mb-3">
+              <label for="apellidos" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="apellidos">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              
+            
+            <button type="submit" id="boton" class="btn btn-primary w-100"  >Submit</button>
+          </form>
+          <div class="alert alert-success w-25" role="alert">
+            enviado correctamente!;
+          </div>
+    </main>
+    
+    <script src="validaciones.js"></script>
+</body>
+</html>
